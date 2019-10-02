@@ -15,3 +15,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_kenzo.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_kenzo-userdebug \
+    aosp_kenzo-eng
